@@ -13,7 +13,7 @@ struct Gym_Bob_AppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginUIView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

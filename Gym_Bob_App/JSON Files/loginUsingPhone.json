@@ -1,0 +1,250 @@
+//
+//  loginUsingPhone.swift
+//  Gym_Bob_App
+//
+//  Created by mostafa elsanadidy on 23.09.25.
+//
+
+{
+  "info": {
+    "name": "Gym Bob API",
+    "_postman_id": "12345678-abcd-efgh-ijkl-1234567890ab",
+    "description": "Mock API for Gym Business App using static JSON responses",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "/login",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/login",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "login"
+          ]
+        },
+        "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                { "key": "phone_code", "value": "20", "type": "text" },
+                { "key": "phone_number", "value": "123456789", "type": "text" },
+                { "key": "udid", "value": "device-12345", "type": "text" }
+              ]
+            }
+        
+      },
+      "response": [
+        {
+          "name": "Example for /login",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/login",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "login"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": \"success\",\n  \"message\": \"Login successful\",\n  \"data\": {\n    \"user_id\": 101,\n    \"name\": \"John Doe\",\n    \"email\": \"john@example.com\",\n    \"role\": \"member\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\",\n    \"udid\": \"sfdsfsdfs-fsdfsdfsd-fsd243432-njkn23423njn\"\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "/login",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"phone\": \"+201234567890\",\n  \"otp\": \"123456\",\n  \"udid\": \"A1B2C3D4E5F6G7H8\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/login",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "login"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Login Success (New Binding)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"phone\": \"+201234567890\",\n  \"otp\": \"123456\",\n  \"udid\": \"A1B2C3D4E5F6G7H8\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/login",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "login"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": \"success\",\n  \"message\": \"Login successful. UDID bound to account.\",\n  \"user\": {\n    \"id\": 101,\n    \"phone\": \"+201234567890\",\n    \"role\": \"member\",\n    \"udid\": \"A1B2C3D4E5F6G7H8\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR...\"\n  }\n}"
+        },
+        {
+          "name": "Login Error (UDID Mismatch)",
+          "status": "Forbidden",
+          "code": 403,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": \"error\",\n  \"code\": \"UDID_MISMATCH\",\n  \"message\": \"This account is already linked to another device. Do you want to switch?\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "/udid/switch",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"phone\": \"+201234567890\",\n  \"otp\": \"123456\",\n  \"new_udid\": \"NEWDEVICE123456\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/udid/switch",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "udid",
+            "switch"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Switch UDID Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": \"success\",\n  \"message\": \"UDID updated to new device.\",\n  \"user\": {\n    \"id\": 101,\n    \"role\": \"member\",\n    \"udid\": \"NEWDEVICE123456\"\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "/roles",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/roles",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "roles"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Example for /roles",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/roles",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "roles"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Member\"\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Trainer\"\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Secretary\"\n  },\n  {\n    \"id\": 4,\n    \"name\": \"Visitor\"\n  },\n  {\n    \"id\": 5,\n    \"name\": \"Admin\"\n  }\n]"
+        }
+      ]
+    }
+  ]
+}

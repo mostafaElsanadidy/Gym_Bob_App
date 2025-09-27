@@ -16,6 +16,35 @@
 		EDBE662D2E87F54D00DCA52E /* Gym_Bob_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE662C2E87F54D00DCA52E /* Gym_Bob_AppTests.swift */; };
 		EDBE66372E87F54D00DCA52E /* Gym_Bob_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66362E87F54D00DCA52E /* Gym_Bob_AppUITests.swift */; };
 		EDBE66392E87F54D00DCA52E /* Gym_Bob_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66382E87F54D00DCA52E /* Gym_Bob_AppUITestsLaunchTests.swift */; };
+		EDBE666A2E87F56400DCA52E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66462E87F56200DCA52E /* LoginViewModel.swift */; };
+		EDBE666B2E87F56400DCA52E /* loginUsingPhone.json in Resources */ = {isa = PBXBuildFile; fileRef = EDBE66482E87F56200DCA52E /* loginUsingPhone.json */; };
+		EDBE666C2E87F56400DCA52E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE664A2E87F56200DCA52E /* Constants.swift */; };
+		EDBE666D2E87F56400DCA52E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE664B2E87F56200DCA52E /* APIClient.swift */; };
+		EDBE666E2E87F56400DCA52E /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE664C2E87F56200DCA52E /* APIRouter.swift */; };
+		EDBE666F2E87F56400DCA52E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE664F2E87F56300DCA52E /* LoginView.swift */; };
+		EDBE66702E87F56400DCA52E /* LoginUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66502E87F56300DCA52E /* LoginUIView.swift */; };
+		EDBE66712E87F56400DCA52E /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66522E87F56300DCA52E /* DashboardView.swift */; };
+		EDBE66722E87F56400DCA52E /* Login_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66532E87F56300DCA52E /* Login_View.swift */; };
+		EDBE66732E87F56400DCA52E /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66542E87F56300DCA52E /* CountryPickerView.swift */; };
+		EDBE66742E87F56400DCA52E /* CodeEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66552E87F56300DCA52E /* CodeEntryView.swift */; };
+		EDBE66752E87F56400DCA52E /* PasswordEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66562E87F56300DCA52E /* PasswordEntryView.swift */; };
+		EDBE66762E87F56400DCA52E /* PasswordSecondCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66572E87F56300DCA52E /* PasswordSecondCreationView.swift */; };
+		EDBE66772E87F56400DCA52E /* PhoneEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66582E87F56300DCA52E /* PhoneEntryView.swift */; };
+		EDBE66782E87F56400DCA52E /* PasswordCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66592E87F56300DCA52E /* PasswordCreationView.swift */; };
+		EDBE66792E87F56400DCA52E /* PhoneLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE665A2E87F56300DCA52E /* PhoneLoginView.swift */; };
+		EDBE667A2E87F56400DCA52E /* TermsConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE665B2E87F56300DCA52E /* TermsConditionsView.swift */; };
+		EDBE667B2E87F56400DCA52E /* ExistingUserLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE665C2E87F56300DCA52E /* ExistingUserLoginView.swift */; };
+		EDBE667C2E87F56400DCA52E /* LoginFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE665D2E87F56300DCA52E /* LoginFlowView.swift */; };
+		EDBE667D2E87F56400DCA52E /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE665F2E87F56300DCA52E /* Country.swift */; };
+		EDBE667E2E87F56400DCA52E /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66612E87F56400DCA52E /* BlurView.swift */; };
+		EDBE667F2E87F56400DCA52E /* Color+hexValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66622E87F56400DCA52E /* Color+hexValue.swift */; };
+		EDBE66802E87F56400DCA52E /* FloatingPhoneField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66632E87F56400DCA52E /* FloatingPhoneField.swift */; };
+		EDBE66812E87F56400DCA52E /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66642E87F56400DCA52E /* NetworkHelper.swift */; };
+		EDBE66822E87F56400DCA52E /* UIWindow+UDID.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66652E87F56400DCA52E /* UIWindow+UDID.swift */; };
+		EDBE66832E87F56400DCA52E /* CheckboxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66662E87F56400DCA52E /* CheckboxToggleStyle.swift */; };
+		EDBE66842E87F56400DCA52E /* ClearBackgroundPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66672E87F56400DCA52E /* ClearBackgroundPage.swift */; };
+		EDBE66852E87F56400DCA52E /* String+validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66682E87F56400DCA52E /* String+validation.swift */; };
+		EDBE66862E87F56400DCA52E /* AttributedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE66692E87F56400DCA52E /* AttributedTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +77,35 @@
 		EDBE66322E87F54D00DCA52E /* Gym_Bob_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gym_Bob_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBE66362E87F54D00DCA52E /* Gym_Bob_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_Bob_AppUITests.swift; sourceTree = "<group>"; };
 		EDBE66382E87F54D00DCA52E /* Gym_Bob_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_Bob_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDBE66462E87F56200DCA52E /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EDBE66482E87F56200DCA52E /* loginUsingPhone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loginUsingPhone.json; sourceTree = "<group>"; };
+		EDBE664A2E87F56200DCA52E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EDBE664B2E87F56200DCA52E /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		EDBE664C2E87F56200DCA52E /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		EDBE664F2E87F56300DCA52E /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EDBE66502E87F56300DCA52E /* LoginUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUIView.swift; sourceTree = "<group>"; };
+		EDBE66522E87F56300DCA52E /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		EDBE66532E87F56300DCA52E /* Login_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login_View.swift; sourceTree = "<group>"; };
+		EDBE66542E87F56300DCA52E /* CountryPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
+		EDBE66552E87F56300DCA52E /* CodeEntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeEntryView.swift; sourceTree = "<group>"; };
+		EDBE66562E87F56300DCA52E /* PasswordEntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordEntryView.swift; sourceTree = "<group>"; };
+		EDBE66572E87F56300DCA52E /* PasswordSecondCreationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordSecondCreationView.swift; sourceTree = "<group>"; };
+		EDBE66582E87F56300DCA52E /* PhoneEntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneEntryView.swift; sourceTree = "<group>"; };
+		EDBE66592E87F56300DCA52E /* PasswordCreationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordCreationView.swift; sourceTree = "<group>"; };
+		EDBE665A2E87F56300DCA52E /* PhoneLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneLoginView.swift; sourceTree = "<group>"; };
+		EDBE665B2E87F56300DCA52E /* TermsConditionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsConditionsView.swift; sourceTree = "<group>"; };
+		EDBE665C2E87F56300DCA52E /* ExistingUserLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingUserLoginView.swift; sourceTree = "<group>"; };
+		EDBE665D2E87F56300DCA52E /* LoginFlowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFlowView.swift; sourceTree = "<group>"; };
+		EDBE665F2E87F56300DCA52E /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		EDBE66612E87F56400DCA52E /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		EDBE66622E87F56400DCA52E /* Color+hexValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+hexValue.swift"; sourceTree = "<group>"; };
+		EDBE66632E87F56400DCA52E /* FloatingPhoneField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPhoneField.swift; sourceTree = "<group>"; };
+		EDBE66642E87F56400DCA52E /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		EDBE66652E87F56400DCA52E /* UIWindow+UDID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+UDID.swift"; sourceTree = "<group>"; };
+		EDBE66662E87F56400DCA52E /* CheckboxToggleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxToggleStyle.swift; sourceTree = "<group>"; };
+		EDBE66672E87F56400DCA52E /* ClearBackgroundPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearBackgroundPage.swift; sourceTree = "<group>"; };
+		EDBE66682E87F56400DCA52E /* String+validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+validation.swift"; sourceTree = "<group>"; };
+		EDBE66692E87F56400DCA52E /* AttributedTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +156,12 @@
 		EDBE66152E87F54800DCA52E /* Gym_Bob_App */ = {
 			isa = PBXGroup;
 			children = (
+				EDBE66492E87F56200DCA52E /* API */,
+				EDBE66472E87F56200DCA52E /* JSON Files */,
+				EDBE665E2E87F56300DCA52E /* Models */,
+				EDBE66602E87F56400DCA52E /* Supporting Files */,
+				EDBE66452E87F56200DCA52E /* View Models */,
+				EDBE664D2E87F56300DCA52E /* Views */,
 				EDBE66162E87F54800DCA52E /* Gym_Bob_AppApp.swift */,
 				EDBE66182E87F54800DCA52E /* ContentView.swift */,
 				EDBE661A2E87F54C00DCA52E /* Assets.xcassets */,
@@ -131,6 +195,93 @@
 				EDBE66382E87F54D00DCA52E /* Gym_Bob_AppUITestsLaunchTests.swift */,
 			);
 			path = Gym_Bob_AppUITests;
+			sourceTree = "<group>";
+		};
+		EDBE66452E87F56200DCA52E /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE66462E87F56200DCA52E /* LoginViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		EDBE66472E87F56200DCA52E /* JSON Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE66482E87F56200DCA52E /* loginUsingPhone.json */,
+			);
+			path = "JSON Files";
+			sourceTree = "<group>";
+		};
+		EDBE66492E87F56200DCA52E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE664A2E87F56200DCA52E /* Constants.swift */,
+				EDBE664B2E87F56200DCA52E /* APIClient.swift */,
+				EDBE664C2E87F56200DCA52E /* APIRouter.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EDBE664D2E87F56300DCA52E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE664E2E87F56300DCA52E /* Authentication */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDBE664E2E87F56300DCA52E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE664F2E87F56300DCA52E /* LoginView.swift */,
+				EDBE66502E87F56300DCA52E /* LoginUIView.swift */,
+				EDBE66512E87F56300DCA52E /* Subviews */,
+				EDBE665D2E87F56300DCA52E /* LoginFlowView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		EDBE66512E87F56300DCA52E /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE66522E87F56300DCA52E /* DashboardView.swift */,
+				EDBE66532E87F56300DCA52E /* Login_View.swift */,
+				EDBE66542E87F56300DCA52E /* CountryPickerView.swift */,
+				EDBE66552E87F56300DCA52E /* CodeEntryView.swift */,
+				EDBE66562E87F56300DCA52E /* PasswordEntryView.swift */,
+				EDBE66572E87F56300DCA52E /* PasswordSecondCreationView.swift */,
+				EDBE66582E87F56300DCA52E /* PhoneEntryView.swift */,
+				EDBE66592E87F56300DCA52E /* PasswordCreationView.swift */,
+				EDBE665A2E87F56300DCA52E /* PhoneLoginView.swift */,
+				EDBE665B2E87F56300DCA52E /* TermsConditionsView.swift */,
+				EDBE665C2E87F56300DCA52E /* ExistingUserLoginView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		EDBE665E2E87F56300DCA52E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE665F2E87F56300DCA52E /* Country.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDBE66602E87F56400DCA52E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE66612E87F56400DCA52E /* BlurView.swift */,
+				EDBE66622E87F56400DCA52E /* Color+hexValue.swift */,
+				EDBE66632E87F56400DCA52E /* FloatingPhoneField.swift */,
+				EDBE66642E87F56400DCA52E /* NetworkHelper.swift */,
+				EDBE66652E87F56400DCA52E /* UIWindow+UDID.swift */,
+				EDBE66662E87F56400DCA52E /* CheckboxToggleStyle.swift */,
+				EDBE66672E87F56400DCA52E /* ClearBackgroundPage.swift */,
+				EDBE66682E87F56400DCA52E /* String+validation.swift */,
+				EDBE66692E87F56400DCA52E /* AttributedTextView.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDBE661E2E87F54C00DCA52E /* Preview Assets.xcassets in Resources */,
+				EDBE666B2E87F56400DCA52E /* loginUsingPhone.json in Resources */,
 				EDBE661B2E87F54C00DCA52E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +415,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDBE66782E87F56400DCA52E /* PasswordCreationView.swift in Sources */,
+				EDBE66702E87F56400DCA52E /* LoginUIView.swift in Sources */,
 				EDBE66202E87F54C00DCA52E /* Persistence.swift in Sources */,
+				EDBE66752E87F56400DCA52E /* PasswordEntryView.swift in Sources */,
+				EDBE667F2E87F56400DCA52E /* Color+hexValue.swift in Sources */,
+				EDBE66742E87F56400DCA52E /* CodeEntryView.swift in Sources */,
+				EDBE66762E87F56400DCA52E /* PasswordSecondCreationView.swift in Sources */,
+				EDBE667C2E87F56400DCA52E /* LoginFlowView.swift in Sources */,
+				EDBE667B2E87F56400DCA52E /* ExistingUserLoginView.swift in Sources */,
+				EDBE66802E87F56400DCA52E /* FloatingPhoneField.swift in Sources */,
+				EDBE66812E87F56400DCA52E /* NetworkHelper.swift in Sources */,
+				EDBE66862E87F56400DCA52E /* AttributedTextView.swift in Sources */,
+				EDBE66722E87F56400DCA52E /* Login_View.swift in Sources */,
+				EDBE667D2E87F56400DCA52E /* Country.swift in Sources */,
+				EDBE666D2E87F56400DCA52E /* APIClient.swift in Sources */,
+				EDBE66842E87F56400DCA52E /* ClearBackgroundPage.swift in Sources */,
+				EDBE66792E87F56400DCA52E /* PhoneLoginView.swift in Sources */,
 				EDBE66192E87F54800DCA52E /* ContentView.swift in Sources */,
+				EDBE66732E87F56400DCA52E /* CountryPickerView.swift in Sources */,
+				EDBE66822E87F56400DCA52E /* UIWindow+UDID.swift in Sources */,
+				EDBE666F2E87F56400DCA52E /* LoginView.swift in Sources */,
+				EDBE66852E87F56400DCA52E /* String+validation.swift in Sources */,
+				EDBE667A2E87F56400DCA52E /* TermsConditionsView.swift in Sources */,
 				EDBE66172E87F54800DCA52E /* Gym_Bob_AppApp.swift in Sources */,
+				EDBE667E2E87F56400DCA52E /* BlurView.swift in Sources */,
+				EDBE66832E87F56400DCA52E /* CheckboxToggleStyle.swift in Sources */,
+				EDBE66712E87F56400DCA52E /* DashboardView.swift in Sources */,
+				EDBE666A2E87F56400DCA52E /* LoginViewModel.swift in Sources */,
+				EDBE666E2E87F56400DCA52E /* APIRouter.swift in Sources */,
 				EDBE66232E87F54C00DCA52E /* Gym_Bob_App.xcdatamodeld in Sources */,
+				EDBE66772E87F56400DCA52E /* PhoneEntryView.swift in Sources */,
+				EDBE666C2E87F56400DCA52E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
